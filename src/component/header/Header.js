@@ -1,7 +1,8 @@
 import React from 'react';
-import Container from '../../Container/Container';
+
 import { NavLink } from 'react-router-dom';
-import './Header.css'
+
+import './Header.css';
 
 const Header = () => {
     return (
@@ -33,9 +34,6 @@ const Header = () => {
             </nav>
 
 
-            <div>
-                <Container></Container>
-            </div>
 
 
 
