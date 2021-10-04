@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import DisplayCards from '../Cards/DisplayCards';
-
+import './Service.css'
 
 const Services = () => {
     const [displayCourse, setCourse] = useState([])
