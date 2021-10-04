@@ -7,6 +7,7 @@ import Features from './component/Features/Features';
 import Services from './component/Services/Services';
 import Blog from './component/Blog/Blog';
 import About from './component/About/About';
+import Footer from './component/footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -43,9 +44,8 @@ function App() {
           </Route>
 
 
-
         </Switch>
-
+        <Footer></Footer>
 
       </Router>
 
