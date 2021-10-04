@@ -11,19 +11,27 @@ const Services = () => {
 
     }, [])
     return (
-        <div className="services">
+        <div className="total-container ">
+            <div className="showCourse">
+                <div >
+                    {
+                        displayCourse.map(course => <DisplayCards
+                            key={course.key}
+                            course={course}
 
-            <div>
 
-                {
-                    displayCourse.map(course => <DisplayCards
-                        key={course.key}
-                        course={course}
-                    >
+                        >
+                        </DisplayCards>
 
-                    </DisplayCards>)
-                }
+                        )
+
+                    }
+                </div>
+
+
             </div>
+
+
 
         </div>
 

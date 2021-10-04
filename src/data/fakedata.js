@@ -7,7 +7,7 @@ const cards = [
         totalStudentEnroll: 125,
         price: 10000,
         InstructorName: 'John dean',
-        image: 'https://www.bing.com/images/search?view=detailV2&ccid=KpXfeDnc&id=AA5771077203B1AD4CFBE15EE6DF3C4FB3B0A298&thid=OIP.KpXfeDncxEOsjAfFjoTctAHaE8&mediaurl=https%3a%2f%2fwww.internationalstudents.ie%2fsites%2fdefault%2ffiles%2fstyles%2ftraditional_television%2fpublic%2fmedia%2fimages%2f2018-06%2fshutterstock_602226047.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.2a95df7839dcc443ac8c07c58e84dcb4%3frik%3dmKKws0883%252bZe4Q%26pid%3dImgRaw%26r%3d0&exph=640&expw=960&q=english++lang&simid=607990365088065098&FORM=IRPRST&ck=44400CC079C25D1D1575CAF37698E4BB&selectedIndex=6&ajaxhist=0&ajaxserp=0'
+        image: 'https://www.bing.com/images/search?view=detailV2&ccid=Xr8%2bhKJK&id=A15A45F1A43E1E15646579D05585CECA9F8ED8A5&thid=OIP.Xr8-hKJKhAqFmhxfe-wr6gHaDt&mediaurl=https%3a%2f%2fedusoftlearning.com%2fwp-content%2fuploads%2f2018%2f10%2fEdusoft-the-English-Language-Learning-Experts-1080x540.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.5ebf3e84a24a840a859a1c5f7bec2bea%3frik%3dpdiOn8rOhVXQeQ%26pid%3dImgRaw%26r%3d0&exph=540&expw=1080&q=english+language&simid=608016667450037219&FORM=IRPRST&ck=0EBFB53D58A984D7E4CA6F06006D7C3D&selectedIndex=1&ajaxhist=0&ajaxserp=0'
 
 
     },
@@ -20,7 +20,7 @@ const cards = [
         totalStudentEnroll: 150,
         price: 10000,
         InstructorName: 'Mr.Khisimoto',
-        image: 'https://www.bing.com/images/search?view=detailV2&ccid=ZMhN7pUF&id=C5A1B4535FECB333FC3287341EAD86F9CF570D65&thid=OIP.ZMhN7pUFPsG8fnrvel9CbwHaFj&mediaurl=https%3a%2f%2fi0.wp.com%2fnihongocapsule.com%2fwp-content%2fuploads%2f2020%2f02%2fkana.jpg%3ffit%3d1773%252C1329%26ssl%3d1&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.64c84dee95053ec1bc7e7aef7a5f426f%3frik%3dZQ1Xz%252fmGrR40hw%26pid%3dImgRaw%26r%3d0&exph=1329&expw=1773&q=japanese++lang&simid=608036677704312833&FORM=IRPRST&ck=34E2F20AA8A118EFCDDB461A7E5984B4&selectedIndex=3&ajaxhist=0&ajaxserp=0'
+        image: 'https://www.bing.com/images/search?view=detailV2&ccid=%2f1gR8XPI&id=F9158F4C66C52178804CBA07E24581EDA3B8CD18&thid=OIP._1gR8XPIfp37Wt1G9KEV2AHaDn&mediaurl=https%3a%2f%2fthelanguagefactory.co.uk%2fwp-content%2fuploads%2f2019%2f01%2fblog-japan.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.ff5811f173c87e9dfb5add46f4a115d8%3frik%3dGM24o%252b2BReIHug%26pid%3dImgRaw%26r%3d0&exph=723&expw=1483&q=japanese+language&simid=608043309135503664&FORM=IRPRST&ck=B342C757F9D4F3F91D1EF6D5D19104F6&selectedIndex=30&ajaxhist=0&ajaxserp=0'
 
 
     },
