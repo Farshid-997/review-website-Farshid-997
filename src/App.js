@@ -24,7 +24,7 @@ function App() {
             <Services></Services>
           </Route>
 
-          <Route exact path="/services">
+          <Route path="/services">
 
             <Services></Services>
           </Route>
@@ -53,6 +53,7 @@ function App() {
           </Route>
 
         </Switch>
+
         <Footer></Footer>
 
       </Router>

@@ -1,27 +1,32 @@
 import React, { useEffect, useState } from 'react';
-import Cards from '../Cards/Cards';
+import DisplayCards from '../Cards/DisplayCards';
+
 
 const Services = () => {
-    const [cards, setCards] = useState()
+    const [displayCourse, setCourse] = useState([])
     useEffect(() => {
-        fetch('./cards.JSON')
+        fetch('./output.json')
             .then(res => res.json())
-            .then(data => console.log(data))
+            .then(data => setCourse(data))
 
     }, [])
     return (
-        <div>
-            <h2>Language Learning Center</h2>
+        <div className="services">
 
-            {
+            <div>
 
-                cards.map(card => <Cards>
+                {
+                    displayCourse.map(course => <DisplayCards
+                        key={course.key}
+                        course={course}
+                    >
 
-                    key={card.key}
-                    card={card}
-                </Cards>)
-            }
+                    </DisplayCards>)
+                }
+            </div>
+
         </div>
+
     );
 };
 

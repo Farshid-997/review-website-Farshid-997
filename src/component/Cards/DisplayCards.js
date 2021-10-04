@@ -1,8 +1,8 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
-const Cards = (props) => {
-    const { LanguageName, totalStudentEnroll, price, InstructorName, image } = props.cards
+const DisplayCards = (props) => {
+    const { LanguageName, totalStudentEnroll, price, InstructorName, image } = props.course
     return (
         <div>
             <Card style={{ width: '18rem' }}>
@@ -14,11 +14,11 @@ const Cards = (props) => {
                         <p>{totalStudentEnroll}</p>
                         <p>{price}</p>
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+
                 </Card.Body>
             </Card>
         </div>
     );
 };
 
-export default Cards;
+export default DisplayCards;
