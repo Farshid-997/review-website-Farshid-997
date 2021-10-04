@@ -33,7 +33,7 @@ const Header = () => {
 
 
             <div className="mainpart">
-                <h2>This is  header</h2>
+                <h2>Language Training Center</h2>
             </div>
 
 
