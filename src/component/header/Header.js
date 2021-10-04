@@ -1,4 +1,5 @@
 import React from 'react';
+import Container from '../../Container/Container';
 import { NavLink } from 'react-router-dom';
 import './Header.css'
 
@@ -32,8 +33,8 @@ const Header = () => {
             </nav>
 
 
-            <div className="mainpart">
-                <h2>Language Training Center</h2>
+            <div>
+                <Container></Container>
             </div>
 
 

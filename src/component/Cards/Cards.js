@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Container = () => {
+const Cards = () => {
     return (
         <div>
-
+            <h1>This is card</h1>
         </div>
     );
 };
 
-export default Container;
+export default Cards;
