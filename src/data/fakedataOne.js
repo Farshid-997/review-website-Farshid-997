@@ -20,7 +20,7 @@ const output = [
         totalStudentEnroll: 150,
         price: 10000,
         InstructorName: 'Mr.Khisimoto',
-        image: 'http://www.infocobuild.com/language/japanese/Learning-Japanese-Img.png'
+        image: 'https://aiutoconsulting.in/wp-content/uploads/2017/01/Aiuto_ForeignLanguage_Japanese.jpg'
 
 
     },
@@ -44,7 +44,7 @@ const output = [
         LanguageName: 'Bangla',
         totalStudentEnroll: 150,
         price: 10000,
-        InstructorName: 'mr.Abdul Alam',
+        InstructorName: 'Mr.Abdul Alam',
         image: 'https://assetsds.cdnedge.bluemix.net/sites/default/files/beta2/uploads/2013/03/Page-2011.jpg'
 
     },
