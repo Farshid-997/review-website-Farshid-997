@@ -1,9 +1,11 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
 const DisplayCards = (props) => {
     const { LanguageName, totalStudentEnroll, price, InstructorName, image } = props.course
+
     return (
         <div className="Cards">
 
@@ -17,7 +19,7 @@ const DisplayCards = (props) => {
                         <p>{price}</p>
                     </Card.Text>
                     <footer >
-                        <p><FontAwesomeIcon icon="fa-solid fa-star" /></p>
+                        <p>All have Limited Offer</p>
                     </footer>
                 </Card.Body>
             </Card>

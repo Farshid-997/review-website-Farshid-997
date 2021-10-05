@@ -60,10 +60,10 @@ function App() {
 
         </Switch>
 
-        <Footer></Footer>
+
 
       </Router>
-
+      <Footer></Footer>
     </div>
   );
 }
