@@ -1,6 +1,8 @@
 .showCourse{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 5px;
-    margin:10px;
+    grid-template-columns: repeat(3,2fr);
+ 
+  
+    
+    margin:25px;
 }

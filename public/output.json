@@ -46,29 +46,5 @@
     "price": 10000,
     "InstructorName": "xin chi",
     "image": "https://www.aiming.in/wp-content/uploads/2017/03/Korean-Language-Courses.jpg"
-  },
-  {
-    "key": 7,
-    "LanguageName": "Chinese",
-    "totalStudentEnroll": 200,
-    "price": 10000,
-    "InstructorName": "xin xian chi",
-    "image": "https://www.newzoogle.com/wp-content/uploads/2015/09/Top-7-Chinese-Language-Learning-Apps-for-Android.jpg"
-  },
-  {
-    "key": 8,
-    "LanguageName": "Portugese",
-    "totalStudentEnroll": 100,
-    "price": 10000,
-    "InstructorName": "Mr.hanto",
-    "image": "https://ohfact.com/wp-content/uploads/2017/03/Portuguese-Language.jpg"
-  },
-  {
-    "key": 9,
-    "LanguageName": "Hindi",
-    "totalStudentEnroll": 200,
-    "price": 10000,
-    "InstructorName": "Ramprasad",
-    "image": "http://d2r2ijn7njrktv.cloudfront.net/IL/uploads/2019/06/04123431/65338004-creative-hindi-alphabet-texture-background-high-resolution-1068x711.jpg"
   }
 ]

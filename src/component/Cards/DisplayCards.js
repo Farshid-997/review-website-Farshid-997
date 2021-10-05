@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
@@ -6,7 +7,7 @@ const DisplayCards = (props) => {
     return (
         <div className="Cards">
 
-            <Card style={{ width: '18rem', color: 'black', margin: '2px', padding: "2px" }}>
+            <Card style={{ width: '18rem', color: 'black', margin: '5px', padding: "3px", boxShadow: '5px 5px  #aaaaaa' }}>
                 <Card.Img variant="top" src={image} style={{ width: '250px', height: '250px', margin: '5px', padding: '5px', borderRadius: '10px' }} />
                 <Card.Body>
                     <Card.Title>Language:{LanguageName}</Card.Title>
@@ -15,7 +16,9 @@ const DisplayCards = (props) => {
                         <p>{totalStudentEnroll}</p>
                         <p>{price}</p>
                     </Card.Text>
-
+                    <footer >
+                        <p><FontAwesomeIcon icon="fa-solid fa-star" /></p>
+                    </footer>
                 </Card.Body>
             </Card>
 

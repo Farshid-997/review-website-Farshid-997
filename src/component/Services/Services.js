@@ -12,6 +12,8 @@ const Services = () => {
     }, [])
     return (
         <div>
+
+            <div><h1>This is Our Available Courses!!</h1></div>
             <div className="showCourse ">
 
                 {
