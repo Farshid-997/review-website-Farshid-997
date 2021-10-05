@@ -11,14 +11,18 @@ const Home = () => {
     }, [])
     return (
         <div>
-            {
 
-                demoCourse.map(cd => <ShowCard
-                    key={cd.key}
-                    cd={cd}
+            <div className="show-Course">
+                {
 
-                ></ShowCard>)
-            }
+                    demoCourse.map(cd => <ShowCard
+                        key={cd.key}
+                        cd={cd}
+
+                    ></ShowCard>)
+                }
+            </div>
+
         </div>
     );
 };
