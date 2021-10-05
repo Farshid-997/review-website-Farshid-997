@@ -6,6 +6,7 @@ import img3 from './Image/R.jpg'
 const About = () => {
     return (
         <div>
+            <h1>This is Us!!</h1>
             <CardGroup>
                 <Card>
                     <Card.Img variant="top" src={img1} />

@@ -13,7 +13,7 @@ const Home = () => {
     }, [])
     return (
         <div>
-
+            <h1> <span style={{ color: 'red' }}> E-duca</span>  Online Language Learning Platform</h1>
 
 
             <div className="show-Course">

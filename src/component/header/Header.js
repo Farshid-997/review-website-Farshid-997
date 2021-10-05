@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
+
     return (
         <div className="header">
 
@@ -24,11 +25,8 @@ const Header = () => {
                 <NavLink activeStyle={{
                     fontWeight: "bold",
                     color: "red"
-                }} to="/features">Features</NavLink>
-                <NavLink activeStyle={{
-                    fontWeight: "bold",
-                    color: "red"
-                }} to="/blog">Blog</NavLink>
+                }} to="/features">Upcoming Features</NavLink>
+
 
                 <NavLink activeStyle={{
                     fontWeight: "bold",
