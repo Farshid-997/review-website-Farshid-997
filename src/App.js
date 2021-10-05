@@ -9,6 +9,7 @@ import Blog from './component/Blog/Blog';
 import About from './component/About/About';
 import Footer from './component/footer/Footer';
 import NotFound from './component/NotFound/NotFound';
+import Home from './component/Home/Home';
 
 function App() {
   return (
@@ -21,7 +22,12 @@ function App() {
         <Switch>
           <Route exact path="/">
 
-            <Services></Services>
+            <Home></Home>
+          </Route>
+
+          <Route path="/home">
+
+            <Home></Home>
           </Route>
 
           <Route path="/services">

@@ -13,7 +13,14 @@ const Header = () => {
                 <NavLink activeStyle={{
                     fontWeight: "bold",
                     color: "red"
+                }} to="/home">Home</NavLink>
+
+                <NavLink activeStyle={{
+                    fontWeight: "bold",
+                    color: "red"
                 }} to="/services">Services</NavLink>
+
+
                 <NavLink activeStyle={{
                     fontWeight: "bold",
                     color: "red"
