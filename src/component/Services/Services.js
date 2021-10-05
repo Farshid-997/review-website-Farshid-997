@@ -5,14 +5,14 @@ import './Service.css'
 const Services = () => {
     const [displayCourse, setCourse] = useState([])
     useEffect(() => {
-        fetch('./output.json')
+        fetch('./output1.json')
             .then(res => res.json())
             .then(data => setCourse(data))
 
     }, [])
     return (
         <div>
-            <div className="showCourse">
+            <div className="showCourse ">
 
                 {
                     displayCourse.map(course => <DisplayCards

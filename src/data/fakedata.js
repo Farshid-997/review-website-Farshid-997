@@ -110,7 +110,82 @@ const output = [
         image: 'http://d2r2ijn7njrktv.cloudfront.net/IL/uploads/2019/06/04123431/65338004-creative-hindi-alphabet-texture-background-high-resolution-1068x711.jpg'
 
 
-    }
+    },
+
+    {
+
+        key: 10,
+        LanguageName: 'Italian',
+        totalStudentEnroll: 150,
+        price: 10000,
+        InstructorName: 'verroli',
+        image: 'https://www.migrationtranslators.com.au/wp-content/uploads/Italian-Language.jpg'
+
+
+    },
+
+    {
+
+        key: 11,
+        LanguageName: 'Urdu',
+        totalStudentEnroll: 100,
+        price: 10000,
+        InstructorName: 'Md Rob',
+        image: 'https://cdn.techjuice.pk/wp-content/uploads/2017/07/urdu-l.jpg'
+
+
+    },
+
+    {
+
+        key: 12,
+        LanguageName: 'Greek',
+        totalStudentEnroll: 55,
+        price: 10000,
+        InstructorName: 'Joe paske',
+        image: 'https://classicalwisdom.com/wp-content/uploads/2020/12/GREEKLISH-960x570.jpg'
+
+
+    },
+    {
+
+        key: 13,
+        LanguageName: 'British English',
+        totalStudentEnroll: 300,
+        price: 10000,
+        InstructorName: 'Micheal Moore',
+        image: 'https://www.ramsaysimedarbycollege.edu.my/storage/app/media/content-images/English-Language-Program.jpg'
+
+
+    },
+
+    {
+
+        key: 14,
+        LanguageName: 'Farsi',
+        totalStudentEnroll: 40,
+        price: 10000,
+        InstructorName: 'Mr.Moni',
+        image: 'https://3.bp.blogspot.com/-FGv8nVSPqpc/VW2MKBodUqI/AAAAAAAAAVI/u0j41oUmjs8/s1600/pencil.png'
+
+
+    },
+
+
+    {
+
+        key: 15,
+        LanguageName: 'French',
+        totalStudentEnroll: 250,
+        price: 10000,
+        InstructorName: 'Mr.Leo',
+        image: 'https://qph.fs.quoracdn.net/main-qimg-b0246a9c2d0ab4a2b899f3ec6c16d1ec'
+
+
+    },
+
+
+
 
 
 

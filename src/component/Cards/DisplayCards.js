@@ -6,7 +6,7 @@ const DisplayCards = (props) => {
     return (
         <div className="Cards">
 
-            <Card style={{ width: '18rem', color: 'black', margin: '5px', padding: "5px" }}>
+            <Card style={{ width: '18rem', color: 'black', margin: '2px', padding: "2px" }}>
                 <Card.Img variant="top" src={image} style={{ width: '250px', height: '250px', margin: '5px', padding: '5px', borderRadius: '10px' }} />
                 <Card.Body>
                     <Card.Title>Language:{LanguageName}</Card.Title>

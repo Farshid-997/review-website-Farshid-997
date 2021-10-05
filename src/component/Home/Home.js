@@ -12,6 +12,8 @@ const Home = () => {
     return (
         <div>
 
+
+
             <div className="show-Course">
                 {
 
@@ -22,6 +24,11 @@ const Home = () => {
                     ></ShowCard>)
                 }
             </div>
+
+
+
+
+
 
         </div>
     );
